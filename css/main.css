@@ -1,1 +1,12 @@
+body {
+    width:100%;
+    margin:auto;
+}
 
+.header {
+    background: url("../img/NYC.jpg")
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    width:100%;
+    height:200px;
+}
