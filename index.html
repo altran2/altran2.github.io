@@ -1,41 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alexander Tran</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+  </head>
 
-    <!-- Head-->
-    <head>
-        <title>Alexander Tran</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://use.fontawesome.com/23f0c5db41.js"></script>
-        <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans"/>
-        <link type="text/css" rel="stylesheet" href="css/main.css">
-    </head>
-
-    <!--Body-->
-    <body>
-        <!--Navigation Bar-->
-        <ul class = "nav">
-            <li><a href = "#">Home</a></li>
-            <li><a href = "#">About Me</a></li>
-            <li><a href = "#">Projects</a></li>
-            <li><a href = "#">Blog</a></li>
-            <li><a href = "#">Contact</a></li>
-        </ul>
-
-        <!--Header Image-->
-        <div id="headimg">
-            <img src = "img/NYC.jpeg"/>
-        </div>
-
-        <!--Footer-->
-        <div class="footer">
-            <h1>Alexander Tran</h1>
-            <div id = "container">
-                <div class = "icon"><a href = "https://www.linkedin.com/in/alexanderlawtran" target="_blank"><i class="fa fa-linkedin"></i></a></div>
-                <div class = "icon"><a href = "https://github.com/altran2" target="_blank"><i class="fa fa-github"></i></a></div>
-                <div class = "icon"><a href = "mailto:tranalex97@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></div>
-                <div class = "icon"><a href = "img/Resume.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a></div>
+  <body>
+    <!--header-->
+    <header class="main-header" id="header">
+        <div class="bg-color">
+            <!--navbar-->
+            <nav class="nav navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                            <a href="index.html" class="navbar-brand">Alexander Tran</a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+                            <ul class="nav navbar-nav">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About Me</a></li>
+                              <li><a href="portfolio.html">Portfolio</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container text-center">
+                <div class="wrapper wow fadeInUp delay-05s" >
+                    <h3 class="title">Alexander Tran</h3>
+                    <h4 class="sub-title">Web developer & Software Engineer</h4>
+                </div>
             </div>
         </div>
+    </header>
+    <!---->
 
-    </body>
+    <!-- <section id="cta-1">
+        <div class="container">
+            <div class="row">
+                <div class="cta-info text-center">
+                    <h3><span class="dec-tec">“</span>Everything is designed. Few things are designed well.<span class="dec-tec">”</span> -Brian Reed</h3>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!--Portrait & Introduction-->
+    <section>
+      <div class="portrait">
+        <img class="center-block img-responsive img-circle" style="height:400px"; src="img/portrait1.jpg">
+      </div>
+    </section>
+
+    <section>
+      <div class="container text-center">
+        <h2 style="font-weight:bold; letter-spacing: -2px; color:black;">Hi there!!! My name is Alexander Tran.</h2>
+        <div class="p-text">
+          <p>I'm a web developer & software engineer based in Irvine, CA. I am currently an undergraduate student at the University of California, Irvine
+             studying Computer Science. This site serves as my personal website and professional portfolio. Feel free to browse through
+             the rest of my website!!!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="" id="footer">
+        <div class="container">
+              <div class="footer-social">
+                  <div>
+                      <a href="https://www.facebook.com/alex.tran.75470316" target="_blank"> <i class="fa fa-facebook"></i></a>
+                      <a href="https://www.linkedin.com/in/alexanderlawtran/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      <a href="mailto:tranalex97@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                      <a href="https://github.com/altran2" target="_blank"><i class="fa fa-github"></i></a>
+                  </div>
+              </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
