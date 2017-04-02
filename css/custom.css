@@ -196,10 +196,9 @@ button {
     transition-timing-function: linear;
     transition-delay: 1s;
 }
-p
-{
+p {
 	color: black;
-	font-size: 19px;
+	font-size: 20px;
 	text-align: justify;
 	line-height: 35px;
 }
@@ -541,6 +540,13 @@ tr:hover {
 		#intro {
 			margin-left: 0em;
 			margin-right: 1.5em;
+		}
+
+		p {
+			text-align: justify;
+			font-size: 16px;
+			text-justify: newspaper;
+			word-spacing: -2px;
 		}
 
 }
