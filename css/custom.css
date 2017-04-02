@@ -337,7 +337,7 @@ a, a:hover
     font-size: 18px;
     line-height: 32px;
     color: #000;
-		margin-left: 6em;
+		margin-left: 2em;
 }
 .contact-icon-container {
     position: absolute;
@@ -460,8 +460,8 @@ tr:hover {
         margin-bottom: 15px;
     }
 
-		.p-text p {
-			padding: 0px 1.8em 0px 0em;
+		.p-text {
+			padding: 0px 2em 0px 0em;
 		}
 
 		.navbar-default .navbar-brand {
@@ -524,8 +524,8 @@ tr:hover {
         font-size: 20px;
     }
 
-		.p-text p {
-			padding: 0px 1em 0px 0em;
+		.p-text {
+			padding: 0px 2em 0px 0em;
 		}
 }
 /****/
