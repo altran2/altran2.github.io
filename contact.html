@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alexander Tran</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300/Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="col-md-12">
                         <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
                             <span class="fa fa-bars"></span>
                         </button>
                             <a href="index.html" class="navbar-brand">Alexander Tran</a>
@@ -42,7 +42,7 @@
             <div class="container text-center">
                 <div class="wrapper wow fadeInUp delay-05s" >
                     <h3 class="title">Alexander Tran</h3>
-                    <h4 class="sub-title">Web developer & Software Engineer</h4>
+                    <h4 class="sub-title">Project Manager and Product Marketer</h4>
                 </div>
             </div>
         </div>
@@ -67,22 +67,26 @@
                         <div class="contact-info">
                             <form action="https://docs.google.com/forms/d/e/1FAIpQLSfeycX5meCpJuaNlIkOGYB5q9O4LWqZwcHBFrbilwPrdiKpjw/formResponse" onsubmit="submitted=true;" class="contactForm" name="gform" id="gform" target="hidden_iframe">
                                 <div class="form-group">
-                                    <input type="text" name="entry.1814610783" id="entry.1814610783" class="form-control" placeholder="Your Name" required="required;" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <label for="entry.1814610783" >Name</label>
+                                    <input type="text" name="entry.1814610783" id="entry.1814610783" class="form-control" placeholder="Your Name" required="required" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                     <div class="validation"></div>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="email" name="entry.1095022904" id="entry.1095022904" class="form-control" placeholder="Your Email" required="required;" data-rule="email" data-msg="Please enter a valid email" />
+                                    <label for="entry.1095022904">Email</label>
+                                    <input type="email" name="entry.1095022904" id="entry.1095022904" class="form-control" placeholder="Your Email" label="Email" required="required" data-rule="email" data-msg="Please enter a valid email" />
                                     <div class="validation"></div>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" name="entry.1667392007" id="entry.1667392007" class="form-control" placeholder="Subject" required="required;" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <label for="entry.1667392007">Subject</label>
+                                    <input type="text" name="entry.1667392007" id="entry.1667392007" class="form-control" placeholder="Subject" label="Subject" required="required" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                                     <div class="validation"></div>
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea name="entry.206640252" id="entry.206640252" class="form-control" rows="5" data-rule="required" required="required;" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <label for="entry.206640252">Message</label>
+                                    <textarea name="entry.206640252" id="entry.206640252" class="form-control" rows="5" required="required" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                     <div class="validation"></div>
                                 </div>
                                 <button type="submit" value="Submit" class="btn btn-send">Send</button>
@@ -108,18 +112,16 @@
             </div>
         </div>
     </section>
-    <section class="section-padding">
-    </section>
 
     <!--footer-->
     <footer class="" id="footer">
         <div class="container">
               <div class="footer-social">
                   <div>
-                      <a href="https://www.facebook.com/alex.tran.75470316" target="_blank"> <i class="fa fa-facebook"></i></a>
-                      <a href="https://www.linkedin.com/in/alexlawtran/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      <a href="mailto:tranalex97@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                      <a href="https://github.com/altran2" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.instagram.com/trantheman8/?hl=en" target="_blank"> <span class="fa fa-instagram" aria-hidden="true"></span></a>
+                    <a href="https://www.linkedin.com/in/alexlawtran/" target="_blank"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                    <a href="mailto:tranalex97@gmail.com" target="_blank"><span class="fa fa-envelope" aria-hidden="true"></span></a>
+                    <a href="https://github.com/altran2" target="_blank"><span class="fa fa-github" aria-hidden="true"></span></a>
                   </div>
               </div>
         </div>
